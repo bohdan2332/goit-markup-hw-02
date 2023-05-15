@@ -21,6 +21,7 @@ line-height: 1.16;
 }
 
 .header-list {
+list-style-type: none
 
 }
 
@@ -39,6 +40,7 @@ line-height: 1.16;
 
 }
 .header-adress-list {
+list-style-type: none
  
 }
 .header-adress-item {
@@ -73,7 +75,24 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.50px;
+
+background: #4D5AE5;
+border-radius: 4px;
+color: white;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
 }
+
+.intro-btn:hover {
+    background-color: #404BBF;
+}
+
+
 
 /**------------- CONTENT-----------*/
 
@@ -82,12 +101,23 @@ line-height: 1.50px;
 .content-hero {
 }
 .content-list {
+list-style-type: none
 }
 .content-item {
 }
 .content-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
 }
 .content-top-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
 }
 
 /**------------- ABOUT-----------*/
@@ -95,8 +125,14 @@ line-height: 1.50px;
 .about {
 }
 .about-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
 }
 .about-list {
+list-style-type: none;
 }
 .about-item {
 }
@@ -106,14 +142,30 @@ line-height: 1.50px;
 .staff {
 }
 .staff-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
 }
 .staff-list {
+list-style-type: none
 }
 .staff-item {
 }
 .staff-subject {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
 }
 .staff-center-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.20;
 }
 
 /**------------- FOOTER-----------*/
@@ -121,8 +173,18 @@ line-height: 1.50px;
 .footer {
 }
 .footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
 }
 .footer-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
 }
 
 
