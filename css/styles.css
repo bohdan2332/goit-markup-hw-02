@@ -1,5 +1,7 @@
 body {
 
+color: #2E2F42;
+
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
    
@@ -26,7 +28,7 @@ list-style-type: none
 }
 
 .header-item {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -86,11 +88,17 @@ align-items: flex-start;
 padding: 16px 32px;
 gap: 10px;
 
+cursor: pointer;
+
 }
 
 .intro-btn:hover {
     background-color: #404BBF;
 }
+.intro-btn:focus {
+    background-color: #404BBF
+}
+
 
 
 
