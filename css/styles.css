@@ -164,6 +164,9 @@ font-family: 'Roboto', sans-serif;
 .content-suptitle{
 
 }
+    
+
+
 .list {
 }
 .content-list {
@@ -208,10 +211,42 @@ font-family: 'Roboto', sans-serif;
 
 
 
+/**------------- STAFF-----------*/
 
 
-
-
+.staff {
+    background-color: #F4F4FD
+}
+.staff-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.list {
+}
+.staff-list {
+   
+}
+.staff-item {
+    background-color: #FFFFFF
+}
+.staff-img {
+}
+.staff-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.staff-center-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 
 
