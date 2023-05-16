@@ -32,15 +32,27 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.header-logo-common {
-    text-decoration: none
+.link {
+
+    text-decoration: none;
 }
+   
+
 .header-logo {
     color: #2e2f42;
-    
+   
 }
+
+
+
+.list {
+
+    list-style: none;
+}
+
 .header-list {
-    list-style: none
+    
+   
 }
 .header-list-item {
     font-weight: 500;
@@ -50,22 +62,47 @@ font-family: 'Roboto', sans-serif;
 
     color: #2e2f42;
 }
+
 .header-list-item-link {
     text-decoration:none
+    
+}
+.header-list-item-link:hover {
+    color: #404bbf;
+}
+.header-list-item-link:focus {
+    
+    color: #404bbf;
 }
 .header-address {
+    font-style: normal
 }
 .header-address-list {
 }
 .header-address-list-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color:#434455;
 }
 .header-address-list-item-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color:#434455;
 }
 
+/**------------- INTRO-----------*/
 
-
-
-
+.intro {
+    background-color: #2e2f42;
+}
+.intro-title {
+}
+.intro-btn {
+}
 
 
 
