@@ -312,12 +312,33 @@ background-color: #404BBF;
 
 }
 
+/**------------- DEEP.SubJECt-----------*/
 
+.list {
+    list-style: none
+}
+.deep-list-subject {
+}
+.deep-subject-item {
+}
+.link {
+    text-decoration: none
+}
 
+.deep-subject-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.deep-subject-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 
-
-
-
+}
 
 
 
