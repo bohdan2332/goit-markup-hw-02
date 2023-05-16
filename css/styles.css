@@ -24,7 +24,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-text-decoration: none
+text-decoration: none;
+color: #2e2f42;
+
 
 }
 
@@ -150,6 +152,10 @@ line-height: 1.11;
 list-style-type: none;
 }
 .about-item {
+}
+.about-img {
+
+    display: block;
 }
 
 /**------------- STAFF-----------*/
