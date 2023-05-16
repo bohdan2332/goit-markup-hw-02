@@ -13,6 +13,59 @@ font-family: 'Roboto', sans-serif;
  --brand-color: #3f51b5;
 }
 /**------------- HEADER-----------*/
+.header {
+
+}
+
+.header-navigation {
+
+}
+
+.header-logo-link {
+}
+.header-list {
+    list-style: none;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.header-link {
+    text-decoration:none
+
+}
+
+.header-link:hover {
+
+    color: #404bbf;
+}
+
+.header-link:focus {
+    color: #404bbf
+
+}
+.header-address {
+    font-style: normal
+}
+.header-address-list {
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.header-address-item {
+}
+.header-address-link {
+}
+.header-address-link:hover {
+    color: #404bbf;
+}
+.header-address-link:focus {
+    color: #404bbf;
+}
 
 
 
