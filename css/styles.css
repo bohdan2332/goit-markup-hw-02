@@ -162,7 +162,7 @@ font-family: 'Roboto', sans-serif;
 .content {
 }
 .content-suptitle{
-    
+
 }
 .list {
 }
@@ -187,7 +187,24 @@ font-family: 'Roboto', sans-serif;
 /**------------- ABOUT-----------*/
 
 
-
+.about {
+}
+.about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+}
+.list {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
 
 
 
