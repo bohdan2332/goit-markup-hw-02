@@ -85,6 +85,7 @@ margin-right: 40px;
 /**------------- INTRO-----------*/
 
 .intro {
+    padding: 188px 0 188px;
 
 }
 
@@ -94,6 +95,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+max-width: 496px
 } 
 
 .intro-btn {
@@ -107,11 +109,15 @@ background: #4D5AE5;
 border-radius: 4px;
 color: white;
 
-display: flex;
+min-width: 169px;
+display: block; 
 flex-direction: row;
 align-items: flex-start;
 padding: 16px 32px;
 gap: 10px;
+height: 56px;
+border: none;
+border-radius: 4px;
 
 cursor: pointer;
 
