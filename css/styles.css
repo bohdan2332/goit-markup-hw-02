@@ -295,9 +295,20 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.04em;
 
     color: #4d5ae5;
+    background-color: #F4F4FD;
 }
 
+.deep-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
 
+}
+
+.deep-btn:focus {
+color: #FFFFFF;
+background-color: #404BBF;
+
+}
 
 
 
