@@ -10,9 +10,18 @@ font-family: 'Roboto', sans-serif;
 /**------------- HEADER-----------*/
 
 .header {
+border-bottom: 1px solid #e7e9fc
+}
+.header-container{
 
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 .header-navigation {
+    display: flex;
+    align-items: center;
 
 }
 .header-logo {
@@ -23,9 +32,9 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
 text-decoration: none;
 color: #2e2f42;
+margin-right: 76px
 
 
 }
@@ -42,27 +51,34 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px; 
+    
 }
 
 .header-link {
 
 }
-.header-adress {
+.header-address {
 
 }
-.header-adress-list {
+.header-address-list {
 list-style-type: none
  
 }
-.header-adress-item {
+.header-address-item {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
+display: flex;
+margin-right: 40px;
+
 
 }
-.header-adress-link {
+.header-address-link {
 
 }
 
